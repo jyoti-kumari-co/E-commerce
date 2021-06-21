@@ -1,0 +1,228 @@
+@media (min-width:481px) and (max-width: 900px){
+
+    #info-item{
+display: flex;    
+flex-direction: column;
+}
+#info-section {
+  min-height: 964px;
+
+}
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 28px;
+    transition: 0.4s;
+  }
+  
+  .change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+  }
+  
+  .change .bar2 {opacity: 0;}
+  
+  .change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+  }
+
+  #loginimg{
+      display: none;
+  }
+
+  #hidemenu {
+    position: fixed;
+    margin-top: 15px;
+    width: 135px;
+    display: none;
+    left: 0px;
+    background-color: black;
+  }
+ 
+  #menu>ul>li{
+  float: right;
+  width: 113px;
+  }
+  #searchbar ul li input {
+    height: 41px;
+    width: 247px;
+  }
+ #header-item {
+    height: 92px;
+  }
+  #about-cards{
+    text-align: center;
+    flex-direction: column;
+  }
+  #about-cards {
+    height: 555px !important;
+  }
+  #contact-info {
+    width: 540px !important;
+  }
+  #form input{
+    width: 476px !important;
+  }
+  form{
+    width: 476px !important;
+
+  }
+  #logoimg{
+    display: none;
+  }
+  #searchbar ul li input {
+    height: 36px !important;
+    width: 299px !important;
+  }
+  #header-item{
+    height: 86px !important;
+  }
+  #header-item {
+    background-color: #878787 !important;
+  }
+  #hidemenu{
+    background-color: #878787 !important;
+
+  }
+}
+
+
+@media (min-width : 320px) and (max-width : 480px) {
+  
+  #info-item{
+    display: flex;    
+    flex-direction: column;
+    }
+    #info-section {
+      min-height: 1098px;
+    
+    }
+    .bar1, .bar2, .bar3 {
+        width: 35px;
+        height: 5px;
+        background-color: #333;
+        margin: 6px 28px;
+        transition: 0.4s;
+      }
+      
+      .change .bar1 {
+        -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+        transform: rotate(-45deg) translate(-9px, 6px);
+      }
+      
+      .change .bar2 {opacity: 0;}
+      
+      .change .bar3 {
+        -webkit-transform: rotate(45deg) translate(-8px, -8px);
+        transform: rotate(45deg) translate(-8px, -8px);
+      }
+    
+      #loginimg{
+          display: none;
+      }
+    
+      #hidemenu {
+        position: fixed;
+        margin-top: 15px;
+        width: 135px;
+        display: none;
+        left: 0px;
+        background-color: black;
+      }
+     
+      #menu>ul>li{
+      float: right;
+      width: 113px;
+      }
+      #searchbar ul li input {
+        height: 41px;
+        width: 190px !important;
+      }
+      #searchbar ul li button {
+        height: 38px !important;
+        width: 50px !important;
+      }
+      .moreInfo h1 {
+        padding: 15px 2px !important;
+      }
+      .moreInfo p{
+        padding: 0px 8px 9px 8px !important;
+      }
+     #header-item {
+        height: 92px;
+      }
+      #about-cards{
+        text-align: center;
+        flex-direction: column;
+      }
+      #about-cards {
+        height: 611px !important;
+      }
+      #about-card4 {
+        width: 322px !important;
+
+      }
+
+      #contact-info {
+        width: 322px !important;
+      }
+      #form input{
+        width: 277px !important;
+
+      }
+      .bar1,.bar2,.bar3{
+        margin: 6px 13px;
+      }
+      #submit{
+        width: 282px !important;
+      }
+      form{
+        width: 289px !important;
+    
+      }
+      #about-card3 img{
+        width: 281px ;
+
+      }
+      #searchbar{
+        height: 57px;
+        width: 262px;
+
+      }
+      #about-card2 img {
+        width: 281px;
+      }
+      #about-card1 {
+        width: 322px !important;
+      }
+      #logoimg{
+        display: none;
+      }
+      #searchbar ul li input {
+        height: 36px !important;
+        width: 155px !important;
+      }
+      #login{
+        display: none;
+      }
+      #header-item{
+        height: 86px !important;
+      }
+      #header-item {
+        background-color: #878787 !important;
+      }
+      #hidemenu{
+        background-color: #878787 !important;
+    
+      }
+      .moreInfo {
+        width: 325px !important;
+        text-align: center;}
+
+        #contact-section{
+          margin-top: 36px;
+        }
+  }  
+
